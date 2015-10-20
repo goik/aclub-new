@@ -1,0 +1,202 @@
+
+$path:"../../fonts/dejavu/";
+
+@font-face{
+	font-family:"DejaVuSans-Regular";
+	src: url($path+"dejavusans.eot");
+	src: url($path+"dejavusans.eot?#iefix") format("embedded-opentype"),
+	url($path+"dejavusans.woff") format("woff"),
+	url($path+"dejavusans.ttf") format("truetype"),
+	url($path+"dejavusans.otf") format("opentype"),
+	url($path+"dejavusans.svg#DejaVuSans-Regular") format("svg");
+}
+
+@font-face{
+	font-family:"DejaVuSans-Bold";
+	src: url($path+"dejavusans-bold.eot");
+	src: url($path+"dejavusans-bold.eot?#iefix") format("embedded-opentype"),
+	url($path+"dejavusans-bold.woff") format("woff"),
+	url($path+"dejavusans-bold.ttf") format("truetype"),
+	url($path+"dejavusans-bold.otf") format("opentype"),
+	url($path+"dejavusans-bold.svg#DejaVuSans-Bold") format("svg");
+}
+
+@font-face{
+	font-family:"DejaVuSans-BoldOblique";
+	src: url($path+"dejavusans-boldoblique.eot");
+	src: url($path+"dejavusans-boldoblique.eot?#iefix") format("embedded-opentype"),
+	url($path+"dejavusans-boldoblique.woff") format("woff"),
+	url($path+"dejavusans-boldoblique.ttf") format("truetype"),
+	url($path+"dejavusans-boldoblique.otf") format("opentype"),
+	url($path+"dejavusans-boldoblique.svg#DejaVuSans-BoldOblique") format("svg");
+}
+
+@font-face{
+	font-family:"DejaVuSans-Condensed";
+	src: url($path+"dejavusanscondensed.eot");
+	src: url($path+"dejavusanscondensed.eot?#iefix") format("embedded-opentype"),
+	url($path+"dejavusanscondensed.woff") format("woff"),
+	url($path+"dejavusanscondensed.ttf") format("truetype"),
+	url($path+"dejavusanscondensed.otf") format("opentype"),
+	url($path+"dejavusanscondensed.svg#DejaVuSans-Condensed") format("svg");
+}
+
+@font-face{
+	font-family:"DejaVuSans-CondensedBold";
+	src: url($path+"dejavusanscondensed-bold.eot");
+	src: url($path+"dejavusanscondensed-bold.eot?#iefix") format("embedded-opentype"),
+	url($path+"dejavusanscondensed-bold.woff") format("woff"),
+	url($path+"dejavusanscondensed-bold.ttf") format("truetype"),
+	url($path+"dejavusanscondensed-bold.otf") format("opentype"),
+	url($path+"dejavusanscondensed-bold.svg#DejaVuSans-CondensedBold") format("svg");
+}
+
+@font-face{
+	font-family:"DejaVuSans-CondensedBoldOblique";
+	src: url($path+"dejavusanscondensed-boldoblique.eot");
+	src: url($path+"dejavusanscondensed-boldoblique.eot?#iefix") format("embedded-opentype"),
+	url($path+"dejavusanscondensed-boldoblique.woff") format("woff"),
+	url($path+"dejavusanscondensed-boldoblique.ttf") format("truetype"),
+	url($path+"dejavusanscondensed-boldoblique.otf") format("opentype"),
+	url($path+"dejavusanscondensed-boldoblique.svg#DejaVuSans-Regular") format("svg");
+}
+
+@font-face{
+	font-family:"DejaVuSans-CondensedOblique";
+	src: url($path+"dejavusanscondensed-oblique.eot");
+	src: url($path+"dejavusanscondensed-oblique.eot?#iefix") format("embedded-opentype"),
+	url($path+"dejavusanscondensed-oblique.woff") format("woff"),
+	url($path+"dejavusanscondensed-oblique.ttf") format("truetype"),
+	url($path+"dejavusanscondensed-oblique.otf") format("opentype"),
+	url($path+"dejavusanscondensed-oblique.svg#DejaVuSans-CondensedOblique") format("svg");
+}
+
+@font-face{
+	font-family:"DejaVuSans-ExtraLight";
+	src: url($path+"dejavusans-extralight.eot");
+	src: url($path+"dejavusans-extralight.eot?#iefix") format("embedded-opentype"),
+	url($path+"dejavusans-extralight.woff") format("woff"),
+	url($path+"dejavusans-extralight.ttf") format("truetype"),
+	url($path+"dejavusans-extralight.otf") format("opentype"),
+	url($path+"dejavusans-extralight.svg#DejaVuSans-ExtraLight") format("svg");
+}
+
+@font-face{
+	font-family:"DejaVuSans-Mono";
+	src: url($path+"dejavusansmono.eot");
+	src: url($path+"dejavusansmono.eot?#iefix") format("embedded-opentype"),
+	url($path+"dejavusansmono.woff") format("woff"),
+	url($path+"dejavusansmono.ttf") format("truetype"),
+	url($path+"dejavusansmono.otf") format("opentype"),
+	url($path+"dejavusansmono.svg#DejaVuSans-Mono") format("svg");
+}
+
+@font-face{
+	font-family:"DejaVuSans-MonoBold";
+	src: url($path+"dejavusansmono-bold.eot");
+	src: url($path+"dejavusansmono-bold.eot?#iefix") format("embedded-opentype"),
+	url($path+"dejavusansmono-bold.woff") format("woff"),
+	url($path+"dejavusansmono-bold.ttf") format("truetype"),
+	url($path+"dejavusansmono-bold.otf") format("opentype"),
+	url($path+"dejavusansmono-bold.svg#DejaVuSans-Mono") format("svg");
+}
+
+@font-face{
+	font-family:"DejaVuSans-BoldOblique";
+	src: url($path+"dejavusansmono-boldoblique.eot");
+	src: url($path+"dejavusansmono-boldoblique.eot?#iefix") format("embedded-opentype"),
+	url($path+"dejavusansmono-boldoblique.woff") format("woff"),
+	url($path+"dejavusansmono-boldoblique.ttf") format("truetype"),
+	url($path+"dejavusansmono-boldoblique.otf") format("opentype"),
+	url($path+"dejavusansmono-boldoblique.svg#DejaVuSans-BoldOblique") format("svg");
+}
+
+@font-face{
+	font-family:"DejaVuSans-Oblique";
+	src: url($path+"dejavusansmono-oblique.eot");
+	src: url($path+"dejavusansmono-oblique.eot?#iefix") format("embedded-opentype"),
+	url($path+"dejavusansmono-oblique.woff") format("woff"),
+	url($path+"dejavusansmono-oblique.ttf") format("truetype"),
+	url($path+"dejavusansmono-oblique.otf") format("opentype"),
+	url($path+"dejavusansmono-oblique.svg#DejaVuSans-Oblique") format("svg");
+}
+
+@font-face{
+	font-family:"DejaVuSerif";
+	src: url($path+"dejavuserif.eot");
+	src: url($path+"dejavuserif.eot?#iefix") format("embedded-opentype"),
+	url($path+"dejavuserif.woff") format("woff"),
+	url($path+"dejavuserif.ttf") format("truetype"),
+	url($path+"dejavuserif.otf") format("opentype"),
+	url($path+"dejavuserif.svg#DejaVuSerif") format("svg");
+}
+
+@font-face{
+	font-family:"DejaVuSerif-Bold";
+	src: url($path+"dejavuserif-bold.eot");
+	src: url($path+"dejavuserif-bold.eot?#iefix") format("embedded-opentype"),
+	url($path+"dejavuserif-bold.woff") format("woff"),
+	url($path+"dejavuserif-bold.ttf") format("truetype"),
+	url($path+"dejavuserif-bold.otf") format("opentype"),
+	url($path+"dejavuserif-bold.svg#DejaVuSerif") format("svg");
+}
+
+@font-face{
+	font-family:"DejaVuSerif-BoldItalic";
+	src: url($path+"dejavuserif-bolditalic.eot");
+	src: url($path+"dejavuserif-bolditalic.eot?#iefix") format("embedded-opentype"),
+	url($path+"dejavuserif-bolditalic.woff") format("woff"),
+	url($path+"dejavuserif-bolditalic.ttf") format("truetype"),
+	url($path+"dejavuserif-bolditalic.otf") format("opentype"),
+	url($path+"dejavuserif-bolditalic.svg#DejaVuSerif-BoldItalic") format("svg");
+}
+
+@font-face{
+	font-family:"DejaVuSerif-Condensed";
+	src: url($path+"dejavuserifcondensed.eot");
+	src: url($path+"dejavuserifcondensed.eot?#iefix") format("embedded-opentype"),
+	url($path+"dejavuserifcondensed.woff") format("woff"),
+	url($path+"dejavuserifcondensed.ttf") format("truetype"),
+	url($path+"dejavuserifcondensed.otf") format("opentype"),
+	url($path+"dejavuserifcondensed.svg#DejaVuSerif-BoldItalic") format("svg");
+}
+
+@font-face{
+	font-family:"DejaVuSerif-CondensedBold";
+	src: url($path+"dejavuserifcondensed-bold.eot");
+	src: url($path+"dejavuserifcondensed-bold.eot?#iefix") format("embedded-opentype"),
+	url($path+"dejavuserifcondensed-bold.woff") format("woff"),
+	url($path+"dejavuserifcondensed-bold.ttf") format("truetype"),
+	url($path+"dejavuserifcondensed-bold.otf") format("opentype"),
+	url($path+"dejavuserifcondensed-bold.svg#DejaVuSerif-CondensedBold") format("svg");
+}
+
+@font-face{
+	font-family:"DejaVuSerif-CondensedBoldItalic";
+	src: url($path+"dejavuserifcondensed-bolditalic.eot");
+	src: url($path+"dejavuserifcondensed-bolditalic.eot?#iefix") format("embedded-opentype"),
+	url($path+"dejavuserifcondensed-bolditalic.woff") format("woff"),
+	url($path+"dejavuserifcondensed-bolditalic.ttf") format("truetype"),
+	url($path+"dejavuserifcondensed-bolditalic.otf") format("opentype"),
+	url($path+"dejavuserifcondensed-bolditalic.svg#DejaVuSerif-CondensedBoldItalic") format("svg");
+}
+
+@font-face{
+	font-family:"DejaVuSerif-CondensedItalic";
+	src: url($path+"dejavuserifcondensed-italic.eot");
+	src: url($path+"dejavuserifcondensed-italic.eot?#iefix") format("embedded-opentype"),
+	url($path+"dejavuserifcondensed-italic.woff") format("woff"),
+	url($path+"dejavuserifcondensed-italic.ttf") format("truetype"),
+	url($path+"dejavuserifcondensed-italic.otf") format("opentype"),
+	url($path+"dejavuserifcondensed-italic.svg#DejaVuSerif-CondensedItalic") format("svg");
+}
+
+@font-face{
+	font-family:"DejaVuSerif-Italic";
+	src: url($path+"dejavuserif-italic.eot");
+	src: url($path+"dejavuserif-italic.eot?#iefix") format("embedded-opentype"),
+	url($path+"dejavuserif-italic.woff") format("woff"),
+	url($path+"dejavuserif-italic.ttf") format("truetype"),
+	url($path+"dejavuserif-italic.otf") format("opentype"),
+	url($path+"dejavuserif-italic.svg#DejaVuSerif-Italic") format("svg");
+}
