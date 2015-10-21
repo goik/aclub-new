@@ -158,13 +158,13 @@ html {
 }
 
 %cover {
-    -webkit-background-size: cover cover;
-    -moz-background-size: cover cover;
-    -o-background-size: cover cover;
-    -khtml-background-size: cover cover;
-    -icab-background-size: cover cover;
-    -ms-background-size: cover cover;
-    background-size: cover cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover ;
+    -o-background-size: cover;
+    -khtml-background-size: cover;
+    -icab-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
 }
 
 %relat {
@@ -231,7 +231,15 @@ html {
 .main-header-fix {
     @extend %gWidth;
     background: url(../../img/header-bg-1x.jpg);
-    @extend %cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover ;
+    -o-background-size: cover;
+    -khtml-background-size: cover;
+    -icab-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
     @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) {
         background: url(../../img/header-bg-2x.jpg);
     }
@@ -458,7 +466,15 @@ html {
 .main-slider-carcass-item {
     background-repeat: no-repeat;
     background-position: center top;
-    @extend %cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover ;
+    -o-background-size: cover;
+    -khtml-background-size: cover;
+    -icab-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
 }
 
 .main-slider {
@@ -587,7 +603,15 @@ html {
     background-image: url(../../img/card-used-section-bg-1x.jpg);
     background-repeat: repeat-y;
     background-position: center top;
-    @extend %cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover ;
+    -o-background-size: cover;
+    -khtml-background-size: cover;
+    -icab-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
@@ -810,7 +834,15 @@ only screen and (min-resolution: 144dpi) {
     background-image: url(../../img/special-offer-bg-1x.jpg);
     background-repeat: repeat-y;
     background-position: center top;
-    @extend %cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover ;
+    -o-background-size: cover;
+    -khtml-background-size: cover;
+    -icab-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
@@ -1019,7 +1051,15 @@ only screen and (min-resolution: 144dpi) {
     background-image: url(../../img/favorite-places-1x.jpg);
     background-repeat: repeat-y;
     background-position: center top;
-    @extend %cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover ;
+    -o-background-size: cover;
+    -khtml-background-size: cover;
+    -icab-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
@@ -1203,7 +1243,15 @@ only screen and (min-resolution: 144dpi) {
     background-image: url(../../img/special-offer-bg-1x.jpg);
     background-repeat: repeat-y;
     background-position: center top;
-    @extend %cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover ;
+    -o-background-size: cover;
+    -khtml-background-size: cover;
+    -icab-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
@@ -1385,7 +1433,15 @@ only screen and (min-resolution: 144dpi) {
     background-image: url(../../img/card-info-bg.jpg);
     background-repeat: repeat-y;
     background-position: center top;
-    @extend %cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover ;
+    -o-background-size: cover;
+    -khtml-background-size: cover;
+    -icab-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
@@ -1508,7 +1564,15 @@ only screen and (min-resolution: 144dpi) {
     background-image: url(../../img/special-offer-bg-1x.jpg);
     background-repeat: repeat-y;
     background-position: center top;
-    @extend %cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover ;
+    -o-background-size: cover;
+    -khtml-background-size: cover;
+    -icab-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
@@ -1639,7 +1703,7 @@ only screen and (min-resolution: 144dpi) {
 }
 
 .contact-pad {
-    padding-top: 73px;
+    padding-top: 61px;
 }
 
 .contact-txt {
@@ -1741,9 +1805,7 @@ only screen and (min-resolution: 144dpi) {
     @extend %dbcb;
 }
 
-.content-inner {
-
-}
+.content-inner {}
 
 .content-inner-fix-pad {
     padding-top: 40px;
@@ -1852,17 +1914,71 @@ only screen and (min-resolution: 144dpi) {
 }
 
 .item-platform {
-	display:block;
+    display: block;
     background: #fff;
-    border:solid #fff 2px;
+    border: solid #fff 2px;
     @extend %transition;
-    width:100%;
-	@include hHack(320px);
-	@include borderRadius(4px);	
-	@extend %transition;
+    width: 100%;
+    @include hHack(320px);
+    @include borderRadius(4px);
+    @extend %transition;
 }
 
+.item-platform:hover {
+    border: solid #4ac4df 2px;
+}
 
-.item-platform:hover{
-	border:solid #4ac4df 2px;
+.card-used-fix,
+.card-types-section-fix,
+.favorite-places-fix,
+.card-used-fix {
+    background-color: #f4f4f4!important
+}
+
+.main-slider-fix,
+.card-section-fix,
+.partner-section-fix,
+.special-offer-section-fix {
+    background-color: #dddddd!important
+}
+
+.main-slider-carcass-item {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.slider-descr {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.blure-img {
+    display: block;
+    clear: both;
+    position: absolute;
+    top: -5%;
+    left: -22px;
+    width: 110% !important;
+    height: 110% !important;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+    background-repeat: no-repeat;
+    background-position: center top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover ;
+    -o-background-size: cover;
+    -khtml-background-size: cover;
+    -icab-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+}
+
+.main-slider-carcass-item {
+    overflow: hidden;
 }
