@@ -159,7 +159,7 @@ html {
 
 %cover {
     -webkit-background-size: cover;
-    -moz-background-size: cover ;
+    -moz-background-size: cover;
     -o-background-size: cover;
     -khtml-background-size: cover;
     -icab-background-size: cover;
@@ -234,7 +234,7 @@ html {
     background-repeat: no-repeat;
     background-position: center top;
     -webkit-background-size: cover;
-    -moz-background-size: cover ;
+    -moz-background-size: cover;
     -o-background-size: cover;
     -khtml-background-size: cover;
     -icab-background-size: cover;
@@ -469,7 +469,7 @@ html {
     background-repeat: no-repeat;
     background-position: center top;
     -webkit-background-size: cover;
-    -moz-background-size: cover ;
+    -moz-background-size: cover;
     -o-background-size: cover;
     -khtml-background-size: cover;
     -icab-background-size: cover;
@@ -606,7 +606,7 @@ html {
     background-repeat: no-repeat;
     background-position: center top;
     -webkit-background-size: cover;
-    -moz-background-size: cover ;
+    -moz-background-size: cover;
     -o-background-size: cover;
     -khtml-background-size: cover;
     -icab-background-size: cover;
@@ -804,6 +804,10 @@ only screen and (min-resolution: 144dpi) {
     padding: 0 100px;
 }
 
+.favorite-places-fix-fill-pad {
+    padding-bottom: 100px;
+}
+
 @media only screen and (max-width:951px) {
     .slider-descr-txt {
         max-width: 481px;
@@ -837,7 +841,7 @@ only screen and (min-resolution: 144dpi) {
     background-repeat: no-repeat;
     background-position: center top;
     -webkit-background-size: cover;
-    -moz-background-size: cover ;
+    -moz-background-size: cover;
     -o-background-size: cover;
     -khtml-background-size: cover;
     -icab-background-size: cover;
@@ -1043,7 +1047,7 @@ only screen and (min-resolution: 144dpi) {
 .favorite-places-fix,
 .favorite-places-fix-fill {
     @extend %gWidth;
-    @include hHack(538px);
+    /*    @include hHack(538px);*/
     margin: 0 auto;
 }
 
@@ -1054,7 +1058,7 @@ only screen and (min-resolution: 144dpi) {
     background-repeat: no-repeat;
     background-position: center top;
     -webkit-background-size: cover;
-    -moz-background-size: cover ;
+    -moz-background-size: cover;
     -o-background-size: cover;
     -khtml-background-size: cover;
     -icab-background-size: cover;
@@ -1073,7 +1077,7 @@ only screen and (min-resolution: 144dpi) {
 .favorit-place-carousel {
     max-width: 1050px;
     @extend %dbcb;
-    @include hHack(408px);
+    /*    @include hHack(408px);*/
     margin: 0 auto;
 }
 
@@ -1100,14 +1104,13 @@ only screen and (min-resolution: 144dpi) {
     float: left*/
 }
 
-.round-cell {
-    border: solid rgba(0, 0, 0, 0.05) 2px;
-}
+.round-cell {}
 
 .round-cell {
     display: block;
-    /*    width: 320px;
-    height: 320px;*/
+    border: solid rgba(0, 0, 0, 0.05) 2px;
+    width: 100%;
+    height: auto;
     @include borderRadius(50%);
     overflow: hidden;
 }
@@ -1176,7 +1179,7 @@ only screen and (min-resolution: 144dpi) {
 .favorite-places .owl-controls {
     position: absolute;
     left: 0;
-    bottom: -20px;
+    bottom: -49px;
     height: 20px;
     text-align: center;
     width: 100%;
@@ -1246,7 +1249,7 @@ only screen and (min-resolution: 144dpi) {
     background-repeat: no-repeat;
     background-position: center top;
     -webkit-background-size: cover;
-    -moz-background-size: cover ;
+    -moz-background-size: cover;
     -o-background-size: cover;
     -khtml-background-size: cover;
     -icab-background-size: cover;
@@ -1436,7 +1439,7 @@ only screen and (min-resolution: 144dpi) {
     background-repeat: no-repeat;
     background-position: center top;
     -webkit-background-size: cover;
-    -moz-background-size: cover ;
+    -moz-background-size: cover;
     -o-background-size: cover;
     -khtml-background-size: cover;
     -icab-background-size: cover;
@@ -1567,7 +1570,7 @@ only screen and (min-resolution: 144dpi) {
     background-repeat: no-repeat;
     background-position: center top;
     -webkit-background-size: cover;
-    -moz-background-size: cover ;
+    -moz-background-size: cover;
     -o-background-size: cover;
     -khtml-background-size: cover;
     -icab-background-size: cover;
@@ -1971,7 +1974,7 @@ only screen and (min-resolution: 144dpi) {
     background-repeat: no-repeat;
     background-position: center top;
     -webkit-background-size: cover;
-    -moz-background-size: cover ;
+    -moz-background-size: cover;
     -o-background-size: cover;
     -khtml-background-size: cover;
     -icab-background-size: cover;
@@ -1981,4 +1984,10 @@ only screen and (min-resolution: 144dpi) {
 
 .main-slider-carcass-item {
     overflow: hidden;
+}
+
+body,
+html,
+.wrapper {
+    min-width: 768px
 }
